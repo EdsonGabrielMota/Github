@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <h1>RPG Game</h1>
+        <div id="character">
+            <img id="player-image" src="540px-Noel_medarot_s_artwork.png" alt="Character">
+        </div>
+        <div id="enemy">
+            <img id="enemy-image" src="Scorpio_(Medarot_S).png" alt="Enemy">
+        </div>
+        <div id="controls">
+            <button onclick="game.start()">Start Game</button>
+            <button onclick="game.attack()">Attack</button>
+            <button onclick="game.heal()">Heal</button>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

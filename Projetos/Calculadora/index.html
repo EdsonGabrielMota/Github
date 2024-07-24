@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="calculadora.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <noscript>Esta máquina não possui JS.</noscript>
+    <h1>Calculadora</h1>
+    <table>
+        <tr>
+            <td>    Soma      </td><td>      </td> <td>      </td><td>        </td><td>Resultado</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="num1"></td>
+            <td>+</td>
+            <td><input type="text" id="num2"></td>
+            <td>=</td>
+            <td><input type="text" id="result1" disabled></td>
+        </tr>
+        <tr>
+            <td>Subtração</td><td>      </td> <td>      </td><td>        </td><td>Resultado</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="num3"></td>
+            <td>-</td>
+            <td><input type="text" id="num4"></td>
+            <td>=</td>
+            <td><input type="text" id="result2" disabled></td>
+        </tr>
+        <tr>
+            <td>Multiplicação</td><td>      </td> <td>      </td><td>        </td><td>Resultado</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="num5"></td>
+            <td>X</td>
+            <td><input type="text" id="num6"></td>
+            <td>=</td>
+            <td><input type="text" id="result3" disabled></td>
+        </tr>
+        <tr>
+            <td>Divisão</td><td>      </td> <td>      </td><td>        </td><td>Resultado</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="num7"></td>
+            <td>/</td>
+            <td><input type="text" id="num8"></td>
+            <td>=</td>
+            <td><input type="text" id="result4" disabled></td>
+        </tr>
+    </table>
+    <button id="calcular">Calcular</button>
